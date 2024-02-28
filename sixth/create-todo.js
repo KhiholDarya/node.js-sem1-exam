@@ -39,3 +39,7 @@ const createTodo = (todo) => {
 module.exports = {
 	createTodo,
 };
+
+// linie od 6 do 31 powinny mieć większe wcięcie
+// w linii 23-30 sprawdzasz czy nowe todo jest już w pliku - dobry pomysł ale nie było takiego wymagania w zadaniu, nie traktuje tego jako błąd, w pracy najlepiej jest zapytać wcześniej czy taki dodatek jest potrzebny
+// masz 3 kolejne puste linie 36-38, przyjęło się że wystarczy jedna pusta linia

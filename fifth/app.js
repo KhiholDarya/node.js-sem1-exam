@@ -71,3 +71,9 @@ if(!userName || typeof userName !== 'string' || userName.includes(specialSigns))
 // node .\app.js --username='pawellukaszuk' --followers='true'
 // node .\app.js --username='octocat' --followers='true'
 // node .\app.js --username='KhiholDarya' --followers='false'
+
+
+// w linii 36 wcięcie kodu jest zbyt duże
+// w linii 48 przeniósłbym console.log do nowej linii - działa tak samo ale łatwiej się czyta
+
+//w linii 31 sprawdziłaś poprawność nazwy użytkownika a w 60 czy jest podana lokalizacja - dobry pomysł

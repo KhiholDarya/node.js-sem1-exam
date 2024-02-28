@@ -20,3 +20,7 @@ function getInfo () {
 	});
 }
 getInfo();
+
+// zadanie rozwiązane prawidłowo
+// w linii 12 moduł path nie jest potrzebny, kod mógłby wyglądać tak:
+// const scriptName = __filename;

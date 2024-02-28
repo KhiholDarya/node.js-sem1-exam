@@ -9,3 +9,9 @@ function recursion(x) {
 	}
 }
 // recursion(10000);
+
+// // pomysł dobry ale można to uprościć do 
+// function recursion() {
+// 	recursion();
+// }
+// recursion();

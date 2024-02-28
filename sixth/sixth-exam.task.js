@@ -47,3 +47,7 @@ const argv = yargs
 	yargs.parse();
 
 // add --todo="code a new app"
+
+// we wszystkich plikach powinnaś sprawdzić średniki i wcięcia
+// nazwa pliku "todos.json" występuje w kodzie 5 razy, warto przenieść ją do pliku sixth-exam.task.js i przekazywać ją do pozostałych funkcji jako parametr
+// kod odpowiedzialny za odczyt pliku jest w dwóch modułach - create-todo.js i show-list-todo.j, lepiej jest przenieść go do nowego modułu i zaimportować do pozostałch
